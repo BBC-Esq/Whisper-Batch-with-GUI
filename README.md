@@ -18,7 +18,7 @@ This is my first program ever and first Github repo ever.  Thanks for visiting.
 
  TO DO LIST IF ANYONE WANTS TO HELP:
 
-*** Implement the technology if "ggml" models like at https://github.com/Const-me/Whisper.  Please contact me if you know how I might do this.
+*** Implement the technology of "ggml" models like at https://github.com/Const-me/Whisper.  Please contact me if you know how I might do this.
 
 *** Include an option for transcribing live audio, again, like the above repo.  My hat's off to that guy.
 
