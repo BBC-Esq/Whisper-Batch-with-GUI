@@ -1,31 +1,39 @@
-OBVIOUSLY YOU MUST FIRST INSTALL WHISPER AND HAVE NVIDIA'S GPU-ACCELLERATION GOING, PYTORCH ETC.  NO EXPLANATION OF THAT HERE, COME BACK WHEN YOU GET THAT GOING
+## Programs Needed:
 
-TESTED UP TO PYTHON 3.10
+- Python — Whisper — Pytorch — CUDA
 
-SCRIPT SUMMARIES:
+## Tested with:
 
-"batchwhispermenu.py"
-This script creates a GUI for a batch processing tool called "batchwhisper.bat". The GUI allows users to select a model, output format, source language, and whether to include subdirectories and translations. Upon hitting "Run", it launches "batchwhisper.bat" with the selected parameters in a separate thread. It also notifies users when the process completes and handles the case where "batchwhisper.bat" isn't found.
+- Python 3.10 — CUDA 11.8 — Pytorch 2.0
 
-"batchwhispermenu.bat"
-Initiates "batchwhispermenu.py"
+**Note: Please refer to the official documentation for instructions on how to install these technologies.**
 
-"batchwhisper.bat"
-This is the script that actually runs the Whisper command after receiving the options selected through the GUI.
+## Instructions:
 
-TO USE:
+1. Put all three files anywhere that is in your system `PATH`.
+2. Open a command prompt in the directory where your audio files are located.
+3. Type "batchwhispermenu" and hit `ENTER`.
 
-Put all three files in the system path, open a command prompte IN THE DIRECTORY YOU WANT TO PROCESS FILES, type "batchwhispermenu" and hit Enter.  Thats it.
+## Summary of Scripts:
 
-CLOSING ARGUMENT:
-This is my first program ever and first Github repo ever.  Thanks for visiting.
+| Script                  | Summary                                                                                                                                      |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| "batchwhispermenu.bat"  | Initiates "batchwhispermenu.py"                                                                                                              |
+| "batchwhispermenu.py"   | A GUI that allows a user to select a model, output format, source language, and whether to include subdirectories and translations.           |
+| "batchwhisper.bat"      | Runs the Whisper program with the parameters selected in the GUI.                                                                             |
 
- TO DO LIST IF ANYONE WANTS TO HELP:
+## TO-DO (feel free to submit a pull request):
 
-*** Implement the technology of "ggml" models like at https://github.com/Const-me/Whisper.  Please contact me if you know how I might do this.
+I want to speed up Whisper by using some or all of the following great repos:
 
-*** Include an option for transcribing live audio, again, like the above repo.  My hat's off to that guy.
+- [https://github.com/ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp)
+- [https://github.com/sanchit-gandhi/whisper-jax](https://github.com/sanchit-gandhi/whisper-jax)
+- [https://github.com/m-bain/whisperX](https://github.com/m-bain/whisperX)
+- [https://github.com/guillaumekln/faster-whisper](https://github.com/guillaumekln/faster-whisper)
 
-*** Improve the GUI to allow you to select multiple files within a directory, not just "all files," just like https://github.com/tigros/Whisperer  
+Links to repos that are more robust but not as lightweight as mine:
 
-*** Once everything is finalized, create an installer/EXE so it's easier to run.
+- [https://github.com/Const-me/Whisper](https://github.com/Const-me/Whisper)
+- [https://github.com/tigros/Whisperer](https://github.com/tigros/Whisperer)
+
+Feel free to explore these projects if you're looking for more robust alternatives.
