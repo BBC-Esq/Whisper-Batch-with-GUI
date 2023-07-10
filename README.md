@@ -1,4 +1,4 @@
-## Programs Needed:
+## Requirements:
 
 - Python — Whisper — Pytorch — CUDA
 
