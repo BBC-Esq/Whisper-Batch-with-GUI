@@ -1,12 +1,7 @@
 ## Requirements:
 
 - Python — Whisper — Pytorch — CUDA
-
-## Tested with:
-
-- Python 3.10 — CUDA 11.8 — Pytorch 2.0
-
-**Note: Please refer to the official documentation for instructions on how to install these technologies.**
+- Tested with: Python 3.10 — CUDA 11.8 — Pytorch 2.0
 
 ## Instructions:
 
