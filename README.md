@@ -18,13 +18,13 @@
 
 | Script                  | Summary                                                                                                                                      |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| "batchwhispermenu.bat"  | Initiates "batchwhispermenu.py"                                                                                                              |
-| "batchwhispermenu.py"   | A GUI that allows a user to select a model, output format, source language, and whether to include subdirectories and translations.           |
-| "batchwhisper.bat"      | Runs the Whisper program with the parameters selected in the GUI.                                                                             |
+| batchwhispermenu.bat  | Initiates "batchwhispermenu.py"                                                                                                              |
+| batchwhispermenu.py   | A GUI that allows a user to select a model, output format, source language, and whether to include subdirectories and translations.           |
+| batchwhisper.bat      | Runs the Whisper program with the parameters selected in the GUI.                                                                             |
 
 ## ADDITIONAL RESOURCES:
 
-Make sure and check out the two primary methods to significantlky speed up OpenAI's Whisper:
+There are two primary methods to significantlky speed up OpenAI's Whisper:
 
 (1) - C++
 - [https://github.com/ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp)
