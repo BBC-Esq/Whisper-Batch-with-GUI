@@ -1,7 +1,6 @@
 ## Requirements:
 
 - Python — Whisper — Pytorch — CUDA
-- Tested with: Python 3.10 — CUDA 11.8 — Pytorch 2.0
 
 ## Instructions:
 
